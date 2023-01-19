@@ -27,6 +27,8 @@ globs = ["**/*.js"]
 LOG_LEVEL = "debug"
 WORKER_ENV = "development"
 CLOUD_PLATFORM = "cloudflare"
+CF_DNS_RESOLVER_URL = "https://freedns.controld.com/p0"
+CF_DNS_RESOLVER_URL_2 = "https://dns10.quad9.net/dns-query"
 
 ##################
 #------PROD------#
